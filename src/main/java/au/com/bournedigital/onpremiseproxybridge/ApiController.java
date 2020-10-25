@@ -66,7 +66,7 @@ public class ApiController {
             if (sapClient != null && !sapClient.isEmpty()) {
                 if (requestPath.contains("?")) {
                     requestPath += "&";
-                }else{
+                } else {
                     requestPath += "?";
                 }
                 requestPath += "sap-client=" + sapClient;

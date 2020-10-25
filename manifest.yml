@@ -1,0 +1,11 @@
+---
+applications:
+- name: onpremisebridge
+  disk_quota: 1G
+  instances: 1
+  memory: 1G
+  buildpack: sap_java_buildpack
+  services:
+  - con-srv
+  - Connectivity
+  - uaa-srv

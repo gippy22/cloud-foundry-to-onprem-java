@@ -1,0 +1,71 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+gen/
+edmx/
+schema.sql
+*.db
+
+bin/
+target/
+.flattened-pom.xml
+.classpath
+.project
+.settingsg
+
+node/
+node_modules/
+
+.mta/
+*.mtar
+
+*.log*
+gc_history*
+hs_err*
+*.tgz
+*.iml
+
+default-env*
+
+.vscode
+.idea
+
+# added by cds deploy
+connection.properties
+.env
+mta.yaml
+
+#remove from git ignore below before handover
+xs-security.json
+srv/.factorypath

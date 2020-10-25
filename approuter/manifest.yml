@@ -1,0 +1,11 @@
+---
+applications:
+- name: java-onpremisebridge-approuter
+  memory: 128MB
+  disk_quota: 512MB
+  instances: 1
+  buildpack: nodejs_buildpack
+  services:
+  - con-srv
+  - Connectivity
+  - uaa-srv
